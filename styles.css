@@ -1,0 +1,76 @@
+body {
+    background: url('../static/images/cancer.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: bold;
+    display: block;
+}
+
+input[type="file"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+    color: #00d4ff;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.alert {
+    color: red;
+    text-align: center;
+}
